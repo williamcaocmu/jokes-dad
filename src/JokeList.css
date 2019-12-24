@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .JokeList-title {
@@ -27,4 +28,12 @@
 
 .JokeList-sidebar img {
   width: 50%;
+}
+
+.JokeList-jokes {
+  height: 90%;
+  background: white;
+  align-self: center;
+  width: 70%;
+  overflow: scroll;
 }
